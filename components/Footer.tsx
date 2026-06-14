@@ -12,12 +12,9 @@ export default function Footer() {
           {/* Logo + tagline */}
           <div className="flex flex-col items-center md:items-start gap-2">
             <div className="flex items-center">
-              <span className="relative text-white font-black text-lg tracking-widest">
+              <span className="relative text-white font-light text-lg tracking-[0.12em]">
                 TAGO
-              <svg className="absolute -bottom-1 left-0 w-full" height="5" viewBox="0 0 60 5" fill="none" preserveAspectRatio="none">
-                  <line x1="0" y1="1" x2="60" y2="1" stroke="#D4956A" strokeWidth="1.2" strokeDasharray="5 3" strokeLinecap="round"/>
-                  <line x1="0" y1="4" x2="60" y2="4" stroke="#D4956A" strokeWidth="1.2" strokeDasharray="5 3" strokeLinecap="round"/>
-                </svg>
+                <span className="absolute -bottom-0.5 left-0 w-full h-px bg-gold-500" />
               </span>
             </div>
             <p className="text-gray-600 text-sm">{t.footer.tagline}</p>

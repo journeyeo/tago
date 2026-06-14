@@ -36,13 +36,10 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center group">
-            <span className="relative text-navy-900 font-black text-xl tracking-widest">
-              TAGO
-              <svg className="absolute -bottom-1 left-0 w-full" height="5" viewBox="0 0 60 5" fill="none" preserveAspectRatio="none">
-                <line x1="0" y1="1" x2="60" y2="1" stroke="#D4956A" strokeWidth="1.2" strokeDasharray="5 3" strokeLinecap="round"/>
-                <line x1="0" y1="4" x2="60" y2="4" stroke="#D4956A" strokeWidth="1.2" strokeDasharray="5 3" strokeLinecap="round"/>
-              </svg>
-            </span>
+            <div className="w-9 h-9 rounded-lg bg-black flex flex-col items-center justify-center shrink-0 leading-none">
+              <span className="text-white text-[11px] font-black tracking-widest leading-none">TA</span>
+              <span className="text-gold-500 text-[11px] font-black tracking-widest leading-none">GO</span>
+            </div>
           </a>
 
           {/* Desktop nav */}

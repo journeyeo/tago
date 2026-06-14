@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bebas: ['var(--font-bebas-neue)', 'sans-serif'],
+      },
       colors: {
         navy: {
           950: '#111110',
