@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-950: #111110;
+  --navy-900: #1C1A18;
+  --navy-800: #272420;
+  --gold-500: #D4956A;
+  --line-green: #06C755;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans JP', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FAF8F5;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-grid-pattern {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+
+  .gold-gradient {
+    background: linear-gradient(135deg, #D4AF37, #F0D060, #D4AF37);
+  }
+
+  .navy-gradient {
+    background: linear-gradient(135deg, #1C1A18 0%, #272420 50%, #1C1A18 100%);
+  }
+}
+
+/* LINE button hover glow */
+.line-button-glow:hover {
+  box-shadow: 0 0 30px rgba(6, 199, 85, 0.4);
+}
+
+/* Section reveal animation */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.7s ease-out forwards;
+}

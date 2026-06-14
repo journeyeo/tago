@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "why": "Why TAGO",
+    "pricing": "Routes",
+    "howItWorks": "How It Works",
+    "contact": "Book via LINE"
+  },
+  "hero": {
+    "badge": "Premium Taxi Service",
+    "title": "Travel Korea\nin Style.",
+    "subtitle": "Premium private taxi for international travelers\nfrom airport to any destination in Korea",
+    "cta": "Book via LINE Now",
+    "ctaSub": "LINE Booking • Pay On-Site"
+  },
+  "why": {
+    "title": "Why Choose TAGO",
+    "subtitle": "Premium service designed for international travelers",
+    "items": [
+      {
+        "title": "Japanese LINE Support",
+        "desc": "Reach us in Japanese via LINE — before and during your trip. No Korean needed to book or get help."
+      },
+      {
+        "title": "Premium Vehicles",
+        "desc": "Clean, comfortable luxury vehicles for every ride. Experience VIP treatment from pickup to drop-off."
+      },
+      {
+        "title": "Simple On-Site Payment",
+        "desc": "Cash and card both accepted. Pay the driver directly on-site. Ask for a fare estimate via LINE before your trip."
+      },
+      {
+        "title": "Easy LINE Booking",
+        "desc": "Reserve your ride through LINE before your trip. Simple, convenient, and confirmed in advance."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Our Routes",
+    "subtitle": "Choose a route that fits your travel style",
+    "note": "※ Contact us on LINE for fare estimates. Cash and card both accepted.",
+    "cta": "Ask Us on LINE",
+    "items": [
+      {
+        "tag": "Airport Transfer",
+        "title": "Airport ↔ Seoul",
+        "desc": "Smooth transfer from the airport to Seoul city center.",
+        "options": []
+      },
+      {
+        "tag": "Regional Transfer",
+        "title": "Seoul ↔ Other Regions",
+        "desc": "Charter to Busan, Gangwon, and beyond.",
+        "options": ["Busan", "Gangwon", "Other Areas"]
+      },
+      {
+        "tag": "Time Charter",
+        "title": "Flexible Charter",
+        "desc": "Ideal for sightseeing and shopping. 4h · 8h · 12h available.",
+        "options": ["4 hrs", "8 hrs", "12 hrs"]
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Book in 3 simple steps",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Message Us on LINE",
+        "desc": "Tell us your travel dates, group size, destination, and preferred course. English is fine!"
+      },
+      {
+        "step": "02",
+        "title": "Confirm Route & Price",
+        "desc": "Our team will suggest the best route and confirm pricing. Booking is confirmed only when you're satisfied."
+      },
+      {
+        "step": "03",
+        "title": "Enjoy Your Ride",
+        "desc": "Your driver will meet you at the designated time and place. Sit back and enjoy the journey."
+      }
+    ]
+  },
+  "trust": {
+    "title": "A Ride You Can Count On",
+    "subtitle": "An experienced driver dedicated to making your Korea trip smooth and comfortable",
+    "points": [
+      {
+        "title": "Years of Experience",
+        "desc": "A professional driver with extensive experience navigating Korea's roads, so you can sit back and relax."
+      },
+      {
+        "title": "Smooth, Safe Driving",
+        "desc": "Calm and careful behind the wheel — no sudden braking, no rushing. Your comfort comes first."
+      },
+      {
+        "title": "Clean, Spacious Cabin",
+        "desc": "The car is cleaned before every ride. Plenty of room for luggage and travel gear."
+      }
+    ]
+  },
+  "ctaSection": {
+    "title": "Ready to Explore Korea?",
+    "subtitle": "Message us on LINE — we reply in Japanese.",
+    "button": "Book via LINE",
+    "lineId": "LINE ID: @tago"
+  },
+  "footer": {
+    "tagline": "Making Korea travel smarter and more comfortable.",
+    "company": "Operated by Trailabs",
+    "rights": "© 2024 TAGO. All rights reserved."
+  }
+}
